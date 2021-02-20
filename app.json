@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "repo-tracker",
+    "name": "Repo Tracker",
     "slug": "repo-tracker",
     "version": "0.1.0",
     "orientation": "portrait",
@@ -16,14 +16,13 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "dev.joaquimnet.repotracker",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
